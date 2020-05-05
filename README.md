@@ -60,5 +60,9 @@ Open a new terminal, source the environment variables and type:
 
 Open a new terminal and type:
      `rosrun teleop_twist_keyboard teleop_twist_keyboard.py`
-     
+
+
+*Notice how the robot's position is quickly corrected, although its initial pose:*
+
+
   ![](amcl_test_teleop.gif)
