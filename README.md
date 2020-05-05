@@ -52,4 +52,13 @@ Launch in a terminal, after build and source the environment variables:
 Open a new terminal, source the environment variables and type:
     `roslaunch my_robot amcl.launch`
 
+**Set a 2D Navigation Goal in RVIZ**
+
  ![](amcl_test_goal_position.gif)
+
+**Using teleop twist keyboard**
+
+Open a new terminal and type:
+     `rosrun teleop_twist_keyboard teleop_twist_keyboard.py`
+     
+  ![](amcl_test_teleop.gif)
