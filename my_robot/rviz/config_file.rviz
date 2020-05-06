@@ -7,8 +7,6 @@ Panels:
         - /Global Options1
         - /Status1
         - /RobotModel1
-        - /LaserScan1
-        - /Camera1
         - /Map1
         - /PoseArray1
         - /Polygon1
@@ -152,11 +150,11 @@ Visualization Manager:
       Zoom Factor: 1
     - Alpha: 0.699999988
       Class: rviz/Map
-      Color Scheme: map
+      Color Scheme: costmap
       Draw Behind: true
       Enabled: true
       Name: Map
-      Topic: /map
+      Topic: /move_base/global_costmap/costmap
       Unreliable: false
       Use Timestamp: false
       Value: true
@@ -247,5 +245,5 @@ Window Geometry:
   Views:
     collapsed: true
   Width: 779
-  X: 754
-  Y: -52
+  X: 753
+  Y: -78
